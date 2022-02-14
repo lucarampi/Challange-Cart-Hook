@@ -5,7 +5,7 @@ export const Container = styled.div`
   padding: 30px;
   background: #fff;
   border-radius: 4px;
-
+  overflow: auto;
   footer {
     margin-top: 30px;
     display: flex;
@@ -99,6 +99,7 @@ export const ProductTable = styled.table`
 
 export const Total = styled.div`
   display: flex;
+  flex-direction:column;
   align-items: baseline;
 
   span {

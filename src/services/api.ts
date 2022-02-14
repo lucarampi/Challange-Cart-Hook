@@ -1,5 +1,5 @@
 import axios from 'axios';
 
 export const api = axios.create({
-  baseURL: 'https://cart-hook-beta.vercel.app:3333',
+  baseURL: 'https://cart-hook-app-lucarampi.vercel.app:3000',
 });
